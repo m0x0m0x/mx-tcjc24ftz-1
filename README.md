@@ -1,3 +1,3 @@
-# mx-tcjc24ftz-1
+<img src="./s.gif" width="300%">
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/m0x0m0x/mx-tcjc24ftz-1)
+# mx-tcjc24ftz-1
