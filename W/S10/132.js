@@ -20,6 +20,7 @@ const upperFirstWord = function (str) {
   return [first.toUpperCase(), ...others].join(" ");
 };
 
+// Higher Order Function - HOF
 const transF = function (str, fn) {
   console.log(`Original String: ${str}`);
   console.log(`Transformed String ${fn(str)}`);
