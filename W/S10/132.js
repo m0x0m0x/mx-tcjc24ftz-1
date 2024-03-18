@@ -47,3 +47,5 @@ document.body.addEventListener("click", high5);
 // paraText("For Each Function")
 
 ["nina", "bina", "jina"].forEach(high5);
+
+// Simple test 
