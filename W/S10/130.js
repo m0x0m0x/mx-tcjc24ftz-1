@@ -19,7 +19,7 @@ const checkIn = function (fltNum, pass) {
   fltNum = "LH999";
   pass.name = "Ms." + pass.name;
 
-  // Checking passport
+  //Checking passport
   if (pass.passP === 6969) {
     alert("CheckIn");
   } else {
@@ -29,3 +29,13 @@ const checkIn = function (fltNum, pass) {
 checkIn(flight, nina);
 console.log(flight);
 console.log(nina);
+
+subHead("Illustrate copying and referencing in objects ");
+
+const newPas = function (person) {
+  person.passP = Math.trunc(Math.random() * 123131312321);
+  console.log(person.passP);
+};
+
+newPas(nina);
+checkIn(flight, nina);
