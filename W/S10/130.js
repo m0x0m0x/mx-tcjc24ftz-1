@@ -20,11 +20,11 @@ const checkIn = function (fltNum, pass) {
   pass.name = "Ms." + pass.name;
 
   //Checking passport
-  if (pass.passP === 6969) {
-    alert("CheckIn");
-  } else {
-    alert("Wrong Pass");
-  }
+  // if (pass.passP === 6969) {
+  //   alert("CheckIn");
+  // } else {
+  //   alert("Wrong Pass");
+  // }
 };
 checkIn(flight, nina);
 console.log(flight);
