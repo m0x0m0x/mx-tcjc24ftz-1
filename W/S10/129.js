@@ -11,13 +11,14 @@ mainHead("129: Default Parameters ");
 subHead("Section start - Using Airport Theme");
 
 const bookingS = [];
-const creatBooking = function (flightNum, numPass, price) {
+const creatBooking = function (flightNum, numPass = 1, price = 99) {
   const booking = {
     flightNum,
     numPass,
     price,
   };
   console.log(booking);
+  console.table(booking);
   bookingS.push(booking);
 };
 
