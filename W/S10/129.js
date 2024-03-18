@@ -11,7 +11,7 @@ mainHead("129: Default Parameters ");
 subHead("Section start - Using Airport Theme");
 
 const bookingS = [];
-const creatBooking = function (flightNum, numPass = 1, price = 99) {
+const creatBooking = function (flightNum, numPass = 1, price = 99 * numPass) {
   const booking = {
     flightNum,
     numPass,
@@ -23,3 +23,4 @@ const creatBooking = function (flightNum, numPass = 1, price = 99) {
 };
 
 creatBooking("Jiuo", 23, 900);
+creatBooking("jimo", 5);
