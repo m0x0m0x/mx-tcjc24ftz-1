@@ -24,3 +24,4 @@ const creatBooking = function (flightNum, numPass = 1, price = 99 * numPass) {
 
 creatBooking("Jiuo", 23, 900);
 creatBooking("jimo", 5);
+creatBooking("jj", 10);
