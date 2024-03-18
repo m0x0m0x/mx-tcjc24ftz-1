@@ -12,5 +12,20 @@ subHead("Primitives and Objects in terms of Functions");
 const flight = "LH234";
 const nina = {
   name: "Mistress Nina",
-  pass: "6969",
+  passP: 6969,
 };
+
+const checkIn = function (fltNum, pass) {
+  fltNum = "LH999";
+  pass.name = "Ms." + pass.name;
+
+  // Checking passport
+  if (pass.passP === 6969) {
+    alert("CheckIn");
+  } else {
+    alert("Wrong Pass");
+  }
+};
+checkIn(flight, nina);
+console.log(flight);
+console.log(nina);
