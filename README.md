@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/gzgPnSx/04746-ezgif-com-video-to-gif-converter.gif" width="300%">
+<img src="./s.gif" width="300%">
 
 # mx-tcjc24ftz-1
 
