@@ -18,3 +18,8 @@ const greet = function (greeting) {
 const greeter = greet("hey");
 greeter("Nina");
 greeter("Nbina");
+
+// Writing the above as an arrow function
+
+const greetArr = (greeting) => (name) => console.log(`${greeting} ${name}`);
+greet("booty")("queen");
