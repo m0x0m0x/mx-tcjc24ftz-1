@@ -6,9 +6,11 @@
 
 # Dira
 
-> Explanation of the dira will be here
+> Explanation of the dira will be here, snort smegma
 
-|          N          |            ?            |
-| :-----------------: | :---------------------: |
-|  [`prev`](./prev/)  | Previous important work |
-| [`utils`](./utils/) |  Utility Scripts Here   |
+|            N            |                                           ?                                            |
+| :---------------------: | :------------------------------------------------------------------------------------: |
+|     [`OLD`](./OLD/)     |                                Previous important work                                 |
+|   [`utils`](./utils/)   |                                  Utility Scripts Here                                  |
+| [`testing`](./testing/) |                             All testing will be done here                              |
+|        [W](./W/)        | Actual work broken down by section in directories an each lesson is a seperate js file |
