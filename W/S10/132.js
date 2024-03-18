@@ -49,3 +49,6 @@ document.body.addEventListener("click", high5);
 ["nina", "bina", "jina"].forEach(high5);
 
 // Simple test 
+
+// Push test comment 
+console.log('Push Test')
