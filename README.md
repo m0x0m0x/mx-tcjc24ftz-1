@@ -1,6 +1,6 @@
 # mx-tcjc24ftz-1
 
-<img src="https://i.ibb.co/6gtvxsj/047462.gif" width="300%">
+<img src="./ez1.gif" width="300%">
 
 > Current js study work will be all here
 
