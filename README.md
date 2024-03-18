@@ -1,4 +1,4 @@
-<img src="./s.gif" width="300%">
+<img src="https://i.ibb.co/9s4wLYQ/047462.gif" width="300%">
 
 # mx-tcjc24ftz-1
 
