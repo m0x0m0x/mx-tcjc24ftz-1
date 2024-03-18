@@ -13,4 +13,4 @@
 |     [`OLD`](./OLD/)     |                                Previous important work                                 |
 |   [`utils`](./utils/)   |                                  Utility Scripts Here                                  |
 | [`testing`](./testing/) |                             All testing will be done here                              |
-|        [W](./W/)        | Actual work broken down by section in directories an each lesson is a seperate js file |
+|       [`W`](./W/)       | Actual work broken down by section in directories an each lesson is a seperate js file |
