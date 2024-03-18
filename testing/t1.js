@@ -7,4 +7,6 @@ import { mainHead, subHead, paraText } from "../utils/text.js";
 //
 
 mainHead("T1 - Test1.js");
-console.log("asds");
+
+// Testing padding here
+console.log("Jana".padStart(20, "+").padEnd("40", "-"));
