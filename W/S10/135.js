@@ -42,3 +42,16 @@ const bookAR = book.bind(armpitAir);
 const bookBA23 = book.bind(butyAir, 12);
 bookBA23("Bonda");
 bookBA23("Londi");
+
+// Used often with bind function button
+butyAir.planes = 300;
+butyAir.buyPlane = function () {
+  console.log(this);
+  this.planes++;
+  console.log(this.planes);
+};
+// butyAir.buyPlane();
+
+document
+  .querySelector(".btn1")
+  .addEventListener("click", butyAir.buyPlane.bind(butyAir));
