@@ -2,7 +2,8 @@
 
 > This contains all your previous work will describe what each one of the subdirs contains
 
-|                    Dirs                    |                                           What ?                                            |
-| :----------------------------------------: | :-----------------------------------------------------------------------------------------: |
-| [`m-TCJCFZTE24-S782`](./m-TCJCFZTE24-S782) | Work for [`https://m-tcjcfzte-24-s782.vercel.app/`](https://m-tcjcfzte-24-s782.vercel.app/) |
-|           [`m-ujs-v1`](m-ujs-v1)           |                                        Work until s9                                        |
+|                    Dirs                    |                                                                                                                                         What ?                                                                                                                                         |
+| :----------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [`m-TCJCFZTE24-S782`](./m-TCJCFZTE24-S782) |                                                                                              Work for [`https://m-tcjcfzte-24-s782.vercel.app/`](https://m-tcjcfzte-24-s782.vercel.app/)                                                                                               |
+|         [`m-ujs-v1`](./m-ujs-v1/)          |                                                                                                                                     Work until s9                                                                                                                                      |
+|        [`ubrrwwhc1`](./ubrrwwhc1/)         | Work of Building Websites, from here started the JS course, contains all files main directory -[`https://github.com/m0x0m0x/mx-tcjc24ftz-1/tree/main/OLD/ubrrwwhc1/zz/myt/p4`](https://github.com/m0x0m0x/mx-tcjc24ftz-1/tree/main/OLD/ubrrwwhc1/zz/myt/p4), this has been uploaded to |
