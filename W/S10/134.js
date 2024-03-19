@@ -28,8 +28,9 @@ butyAir.book("69", "Jina");
 butyAir.book("69", "Mona");
 
 paraText("Another Object and testing methods");
+// This object should have the same properties to used with book.call method
 const pantyAir = {
-  name: "PussyWings",
+  airline: "PussyWings",
   iataCode: "PS",
   bookings: [],
 };
@@ -49,3 +50,24 @@ book.call(pantyAir, 99, "gina");
 console.log(pantyAir);
 book.call(butyAir, 57, "Lona");
 console.log(butyAir);
+
+// Creating airlines
+const armpitAir = {
+  airline: "sweatyArmpitAir",
+  iataCode: "SW",
+  bookings: [],
+};
+book.call(armpitAir, 99, "Bian");
+console.log(armpitAir);
+
+subHead("Apply method - book.apply");
+paraText("Needs array instead of args like book.call");
+// Using apply method - Doesnt recieve arguments will take a list
+// Apply is not used anymore , since it needs and array
+const flightData = [583, "nina"];
+book.apply(pantyAir, flightData);
+console.log(pantyAir);
+
+// Bind Method
+paraText("Using the call method with the spread operator");
+book.call(pantyAir, ...flightData);
