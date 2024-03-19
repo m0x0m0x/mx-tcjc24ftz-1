@@ -51,7 +51,18 @@ butyAir.buyPlane = function () {
   console.log(this.planes);
 };
 // butyAir.buyPlane();
-
+paraText("Adding function to button");
 document
   .querySelector(".btn1")
   .addEventListener("click", butyAir.buyPlane.bind(butyAir));
+
+paraText("Adding a tax ");
+// Partial Application
+const addTax = (rate, value) => value + (value * rate) / 100;
+console.log(addTax(10, 100));
+
+// Using bind to set a value
+// This same as - addVAT = value => value + value * 0.23
+const addVAT = addTax.bind(null, 23);
+
+console.log(addVAT(20));
