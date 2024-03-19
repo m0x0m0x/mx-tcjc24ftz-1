@@ -6,6 +6,8 @@ this alternatives , previous was, book.call and book.apply
 */
 // === import zone ===
 import { mainHead, subHead, paraText } from "../../utils/text.js";
+
+// Importing functions from 134.js
 import { armpitAir, book, butyAir, pantyAir } from "../S10/134.js";
 // ======
 mainHead("135: The Bind Method");
@@ -18,5 +20,25 @@ paraText("Calling from 134.js");
 console.log(butyAir, pantyAir, armpitAir);
 
 // Here Binding is being done
+paraText("Function that is now binding this keyword to what we want");
 const book2 = book.bind(pantyAir);
 book2(999, "bokda");
+
+// This is tested by you
+const book3 = book.bind(butyAir);
+book3(919, "kaska");
+
+// Creating booking function to each airlines
+// Re createing new functions binding to the previos objects
+const bookBA = book.bind(butyAir);
+const bookPA = book.bind(pantyAir);
+const bookAR = book.bind(armpitAir);
+
+// Even calling furthere
+
+// Using bind to crate function
+// here one argument is set , we can just add 1 argument now
+// This pattern is called partial application - part of itis already beind defined
+const bookBA23 = book.bind(butyAir, 12);
+bookBA23("Bonda");
+bookBA23("Londi");
