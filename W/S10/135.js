@@ -66,3 +66,5 @@ console.log(addTax(10, 100));
 const addVAT = addTax.bind(null, 23);
 
 console.log(addVAT(20));
+
+//  Function Challenge
