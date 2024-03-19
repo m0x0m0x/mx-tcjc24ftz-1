@@ -9,7 +9,7 @@ import { mainHead, subHead, paraText } from "../../utils/text.js";
 mainHead("134: The Call and Apply Methods ");
 
 subHead("Testing methods");
-const butyAir = {
+export const butyAir = {
   airline: "BuutySniffAir",
   iataCode: "BX",
   bookings: [],
@@ -29,14 +29,14 @@ butyAir.book("69", "Mona");
 
 paraText("Another Object and testing methods");
 // This object should have the same properties to used with book.call method
-const pantyAir = {
+export const pantyAir = {
   airline: "PussyWings",
   iataCode: "PS",
   bookings: [],
 };
 
 // Create a new reusable function
-const book = butyAir.book;
+export const book = butyAir.book;
 console.log(`
 Type of object ${typeof book}
 `);
@@ -52,7 +52,7 @@ book.call(butyAir, 57, "Lona");
 console.log(butyAir);
 
 // Creating airlines
-const armpitAir = {
+export const armpitAir = {
   airline: "sweatyArmpitAir",
   iataCode: "SW",
   bookings: [],
